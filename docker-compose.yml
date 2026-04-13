@@ -2,6 +2,8 @@ services:
   item-service:
     build: ./item-service
     container_name: item-service
+    environment:
+      - SERVER_PORT=8081
     ports:
       - "8081:8081"
     networks:
