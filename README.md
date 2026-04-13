@@ -1,4 +1,3 @@
-![CTSE Microservices Banner](file:///Users/isara/.gemini/antigravity/brain/a193b8eb-6b26-4efd-b3c0-4f2a435a9895/microservices_banner_1776062640702.png)
 
 # CTSE-Lab05: Polyglot Microservices System
 
@@ -116,7 +115,7 @@ graph TD
 - **Course**: Current Trends in Software Engineering (SE4010)
 - **Lab Number**: 05
 - **Focus**: Polyglot Architecture & Containerization
-- **Student ID**: [Your-ID-Here]
+- **Student ID**: IT22154880
 
 ---
 
