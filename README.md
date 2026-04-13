@@ -24,16 +24,16 @@ graph TD
         GW -->|/items| IS[Item Service - Java/Spring]
         GW -->|/orders| OS[Order Service - Node.js/Express]
         GW -->|/payments| PS[Payment Service - Python/FastAPI]
-    in
+    end
     
     IS --- |"Internal State"| IS_DB[(In-Memory)]
     OS --- |"Internal State"| OS_DB[(In-Memory)]
     PS --- |"Internal State"| PS_DB[(In-Memory)]
 
     style GW fill:#f9f,stroke:#333,stroke-width:2px
-    style IS fill:#orange,stroke:#333,stroke-width:2px
-    style OS fill:#green,stroke:#333,stroke-width:2px
-    style PS fill:#blue,stroke:#333,stroke-width:2px
+    style IS fill:#ffa500,stroke:#333,stroke-width:2px
+    style OS fill:#2ecc71,stroke:#333,stroke-width:2px
+    style PS fill:#3498db,stroke:#333,stroke-width:2px
 ```
 
 ---
